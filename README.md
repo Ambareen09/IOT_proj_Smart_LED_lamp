@@ -45,10 +45,10 @@ As above shown in the figure setup all the things, in the same way.
 
 ## How to assemble everything??
     
-After booting the wifi module, stuff everything into the 8-way switchboard. I used some styrofoam for padding the modules inside the board and also attached a layer of tracing paper with acrylic sheets above the LED panel for the diffusion of light or you can do it the way you like as shown below... 👇
+After booting the wifi module, stuff everything into the 8-way switchboard. I used some styrofoam for padding the modules inside the board and also attached a layer of tracing paper with acrylic sheets above the LED panel for the diffusion of light with some aluminum foil beneath the panel for heat dissipation or you can do it the way you like as shown below... 👇
 
 <br>
 <img src="insight.png">
 <br>
 
-And after doing all the above things properly you with have a good nice looking wifi-enabled LED Lamp... ☺️
+And after doing all the above things properly you will have a good nice looking wifi-enabled LED Lamp... ☺️
