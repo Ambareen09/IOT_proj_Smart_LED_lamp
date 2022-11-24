@@ -7,7 +7,7 @@
 
 ## Objective
     
-    To build a LED lamp that is Wifi enabled, in simple words we have to make an LED lamp that can be controlled through the internet from any corner of the world.
+To build a LED lamp that is Wifi enabled, in simple words we have to make an LED lamp that can be controlled through the internet from any corner of the world.
 
 <br>
 
@@ -45,7 +45,7 @@ As above shown in the figure setup all the things, in the same way.
 
 ## How to assemble everything??
     
-    After booting the wifi module, stuff everything into the 8-way switchboard. I used some styrofoam for padding the modules inside the board and also attached a layer of tracing paper with acrylic sheets above the LED panel for the diffusion of light or you can do it the way you like as shown below... 👇
+After booting the wifi module, stuff everything into the 8-way switchboard. I used some styrofoam for padding the modules inside the board and also attached a layer of tracing paper with acrylic sheets above the LED panel for the diffusion of light or you can do it the way you like as shown below... 👇
 
 <br>
 <img src="insight.png">
