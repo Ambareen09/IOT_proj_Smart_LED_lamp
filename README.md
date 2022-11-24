@@ -30,6 +30,63 @@ To build a LED lamp that is Wifi enabled, in simple words we have to make an LED
 <br>
 
 ## How do setup?
+<br>
+
+
+Before booting the NodeMCU we will first create a template on Blynk website for operating the module through wifi from our mobile.
+
+Steps:
+
+    1. Login or sign up on the Blynk website.
+    2. Create a template.
+    3. Choose a Hardware ESP8266 (as NodeMCU is an open-source platform based on ESP8266)
+    4. Connection type Wifi
+    5. Click on Done
+    6. Then go to Datastream and create a new Datastream with Virtual Pin
+    7. Give a name then choose PIN V0 and DATA TYPE as Integer and leave the rest of the options as it is
+    8. Then click on create
+    8. Go to Web Dashboard then drag and drop a toggle switch.
+    9. Click on the setting icon and config the Datastream as the last one you created
+    10. Save it
+
+And then go to your mobile, install the Blynk app or proceed to the next steps if you have already downloaded it 
+
+    1. Login with the same account.
+    2. Go to the setup dashboard and select a button
+    3. Then go to the button setting and change the DATASTREAM to the same one that you have given on the website
+    4. And change the MODE from push to switch
+    5. Save it
+
+
+<br>
+<img src="intregration.png">
+<br>
+
+
+After doing this things open the .ino file (<a href="blnk_led_new_app/blnk_led_new_app.ino"> blnk_led_new_app.ino</a>) given in the repo.
+
+    1. Click on the File option in the idle and copy the URL given in the Additional Boards Manager URLs from the .txt file
+    2. Click ok then go to the Tool option.
+    3. From the Board click on the Board Manager
+    4. Then search and install esp8266
+
+Next add the libraries
+
+    1. Go to the sketch option and add .ZIP library from Include library
+    2. Add ESP8266wifi-master.zip and blynk-library-master.zip both of them
+
+Then again go to the Blynk website
+
+    1. From the template name you have given, copy the BLYNK_AUTH_TOKEN
+    2. Then paste it in the code (.ino file)
+    3. Enter your wifi name or Hotspot name in ssid[] in the code
+    4. Also enter your password of the wifi name or Hotspot name in pass[] in the code
+
+Now, from the select Board
+    
+    1. Select the NodeMCU 1.0 (ESP-12E Module) and the port
+
+After doing all the given above steps properly compile and upload the code into the NodeMCU module then you will able to operate your device from the Blynk website or application.
 
 <br>
 <img src="connection.png">
@@ -39,7 +96,7 @@ As above shown in the figure setup all the things, in the same way.
 
 <br>
 
-## How to boot the NodeMCU (Wifi module) ??
+## How to boot the NodeMCU (Wifi module) ?
 <br>
 
 
