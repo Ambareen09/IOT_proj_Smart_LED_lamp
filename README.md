@@ -109,3 +109,16 @@ After booting the wifi module, stuff everything into the 8-way switchboard. I us
 <br>
 
 And after doing all the above things properly you will have a good nice looking wifi-enabled LED Lamp... ☺️
+
+**_Note_ 
+
+If you are facing issues and can't file the port then do the following steps:
+
+1.  Go to your device manager and see if the port is showing your NodeMCU 
+
+If not
+
+1. Unzip the given files
+2. and install the CP210 (<a href="CP210x_Windows_Drivers.zip"> CP210x_Windows_Drivers.zip </a>) and CH34 (<a href="CH34x_Install_Windows_v3_4.zip"> CH34x_Install_Windows_v3_4.zip </a>) files, then install .exe files as per your architecture
+
+This may resolve the problem... 🥴
