@@ -96,10 +96,6 @@ As above shown in the figure setup all the things, in the same way.
 
 <br>
 
-## How to boot the NodeMCU (Wifi module) ?
-<br>
-
-
 ## How to assemble everything??
     
 After booting the wifi module, stuff everything into the 8-way switchboard. I used some styrofoam for padding the modules inside the board and also attached a layer of tracing paper with acrylic sheets above the LED panel for the diffusion of light with some aluminum foil beneath the panel for heat dissipation or you can do it the way you like as shown below... 👇
