@@ -16,7 +16,7 @@ To build a LED lamp that is Wifi enabled, in simple words we have to make an LED
     1. NodeMCU module
     2. Relay Module
     3. USB Adapter
-    4. Miro USB cable
+    4. Micro USB cable
     5. Power Socket
     6. Switch
     7. Jumper Wires
@@ -29,7 +29,7 @@ To build a LED lamp that is Wifi enabled, in simple words we have to make an LED
 <img src="labels.png">
 <br>
 
-## How do setup?
+## How to set-up?
 <br>
 
 
